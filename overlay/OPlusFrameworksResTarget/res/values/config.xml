@@ -437,4 +437,17 @@
          Note: If the display supports multiple resolutions, please define the path config based on
          the highest resolution so that it can be scaled correctly in each resolution. -->
     <string name="config_mainDisplayShape">M20 0h1040s20 0 20 20v2360s0 20 -20 20h-1040s-20 0 -20 -20v-2360s0 -20 20 -20</string>
+
+    <!-- The list of packages to automatically opt in of fresh rate suppressing by small area
+         detection. Format of this array should be packageName:threshold and threshold value should
+         be between 0 to 1-->
+    <string-array name="config_smallAreaDetectionAllowlist" translatable="false">
+        <!-- Add packages:threshold here -->
+        <item>com.google.android.youtube:0.07</item>
+        <item>com.spotify.music:0.05</item>
+        <item>com.reddit.frontpage:0.07</item>
+        <item>com.zhiliaoapp.musically:0.07</item>
+        <item>com.bilibili.app.in:0.07</item>
+        <item>com.twitter.android:0.07</item>
+    </string-array>
 </resources>
