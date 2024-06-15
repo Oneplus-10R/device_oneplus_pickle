@@ -19,12 +19,6 @@ on early-init
 on init
     write /proc/bootprof "INIT:init"
 
-    # Support legacy paths
-    symlink /sdcard /mnt/sdcard
-
-    # if primary storage is physical, set ro.vold.primary_physical to 1
-    # setprop ro.vold.primary_physical 1
-
     mkdir /mnt/cd-rom 0000 system system
 
 # change lk_env permission
@@ -106,9 +100,6 @@ on late-fs
 
 on post-fs
     write /proc/bootprof "INIT:post-fs"
-
-    # Support legacy paths
-    symlink /sdcard /storage/sdcard0
 
     #change permissions for mediaserver
     chown root media /proc/clkmgr/mipi_test
