@@ -73,7 +73,7 @@ dalvik.vm.finalizer-timeout-ms=40000
 
 # Display
 debug.mediatek.disp_decompress=1
-debug.renderengine.backend=skiagl
+debug.renderengine.backend=skiaglthreaded
 debug.sf.auto_latch_unsignaled=false
 debug.sf.disable_backpressure=1
 debug.sf.disable_client_composition_cache=1
