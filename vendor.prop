@@ -69,7 +69,6 @@ ro.vendor.mtk_fast_charging_support=1
 ro.crypto.volume.filenames_mode=aes-256-cts
 
 # Dalvik
-dalvik.vm.dex2oat64.enabled=true
 dalvik.vm.finalizer-timeout-ms=40000
 
 # Display
