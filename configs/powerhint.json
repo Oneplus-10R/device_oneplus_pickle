@@ -354,7 +354,7 @@
         "Path": "/dev/cpuctl/top-app/cpu.uclamp.min",
         "Values": [
           "10",
-          "80"
+          "100"
         ],
         "DefaultIndex": 0,
         "ResetOnInit": true
@@ -390,13 +390,13 @@
           "PowerHint": "INTERACTION",
           "Node": "CPUEfficiencyClusterMinFreq",
           "Duration": 58,
-          "Value": "800000"
+          "Value": "1400000"
         },
         {
           "PowerHint": "INTERACTION",
           "Node": "CPUSuperClusterMinFreq",
           "Duration": 58,
-          "Value": "1200000"
+          "Value": "1400000"
         },
         {
           "PowerHint": "INTERACTION",
@@ -407,32 +407,32 @@
         {
           "PowerHint": "LAUNCH",
           "Node": "CPUUltraClusterMinFreq",
-          "Duration": 1000,
-          "Value": "2850000"
+          "Duration": 1500,
+          "Value": "9999999"
         },
         {
           "PowerHint": "LAUNCH",
           "Node": "CPUSuperClusterMinFreq",
-          "Duration": 1000,
-          "Value": "2350000"
+          "Duration": 1500,
+          "Value": "9999999"
         },
         {
           "PowerHint": "LAUNCH",
           "Node": "CPUEfficiencyClusterMinFreq",
-          "Duration": 1000,
-          "Value": "1800000"
+          "Duration": 1500,
+          "Value": "9999999"
         },
         {
           "PowerHint": "LAUNCH",
           "Node": "MemFreq",
-          "Duration": 1000,
-          "Value": "4266000000"
+          "Duration": 1500,
+          "Value": "9999999999"
         },
         {
           "PowerHint": "LAUNCH",
           "Node": "UclampTAMin",
-          "Duration": 1000,
-          "Value": "80"
+          "Duration": 1500,
+          "Value": "100"
         },
         {
           "PowerHint": "FIXED_PERFORMANCE",
@@ -444,49 +444,49 @@
           "PowerHint": "FIXED_PERFORMANCE",
           "Node": "CPUUltraClusterMaxFreq",
           "Duration": 0,
-          "Value": "2850000"
+          "Value": "9999999"
         },
         {
           "PowerHint": "FIXED_PERFORMANCE",
           "Node": "CPUUltraClusterMinFreq",
           "Duration": 0,
-          "Value": "1800000"
+          "Value": "9999999"
         },
         {
           "PowerHint": "FIXED_PERFORMANCE",
           "Node": "CPUSuperClusterMaxFreq",
           "Duration": 0,
-          "Value": "2400000"
+          "Value": "9999999"
         },
         {
           "PowerHint": "FIXED_PERFORMANCE",
           "Node": "CPUSuperClusterMinFreq",
           "Duration": 0,
-          "Value": "1500000"
+          "Value": "9999999"
         },
         {
           "PowerHint": "FIXED_PERFORMANCE",
           "Node": "CPUEfficiencyClusterMaxFreq",
           "Duration": 0,
-          "Value": "1800000"
+          "Value": "9999999"
         },
         {
           "PowerHint": "FIXED_PERFORMANCE",
           "Node": "CPUEfficiencyClusterMinFreq",
           "Duration": 0,
-          "Value": "800000"
+          "Value": "9999999"
         },
         {
           "PowerHint": "FIXED_PERFORMANCE",
           "Node": "UclampTAMin",
           "Duration": 0,
-          "Value": "80"
+          "Value": "100"
         },
         {
           "PowerHint": "FIXED_PERFORMANCE",
           "Node": "MemFreq",
           "Duration": 0,
-          "Value": "3200000000"
+          "Value": "9999999999"
         },
         {
           "PowerHint": "EXPENSIVE_RENDERING",
