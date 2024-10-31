@@ -35,6 +35,7 @@ persist.vendor.bluetooth.leaudio_mode=ums-cg
 ro.bluetooth.a2dp_offload.supported=true
 ro.vendor.bt.platform=6895
 
+
 # Bootloader
 ro.oem_unlock_supported=1
 
