@@ -1,11 +1,6 @@
 # Audio
 ro.config.vc_call_vol_steps=9
 
-# Bluetooth
-persist.bluetooth.a2dp_aac_abr.enable=true
-persist.bluetooth.disableabsvol=false
-persist.bluetooth.disableinbandringing=false
-
 # Display
 persist.sys.sf.color_saturation=1.0
 persist.vendor.sys.pq.disp.ccorr.silky.brightness=1
