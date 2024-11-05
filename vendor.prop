@@ -73,9 +73,6 @@ ro.vendor.mtk_fast_charging_support=1
 # Crypto
 ro.crypto.volume.filenames_mode=aes-256-cts
 
-# Dalvik
-dalvik.vm.finalizer-timeout-ms=40000
-
 # Display
 debug.mediatek.disp_decompress=1
 debug.renderengine.backend=skiaglthreaded
@@ -161,13 +158,6 @@ ro.vendor.mgk_name=mgk_64_k510
 
 # Keystore
 ro.hardware.kmsetkey=trustonic
-
-# Low Memory Killer
-ro.lmk.kill_timeout_ms=100
-ro.lmk.psi_complete_stall_ms=150
-ro.lmk.swap_free_low_percentage=10
-ro.lmk.thrashing_limit=30
-ro.lmk.thrashing_limit_decay=50
 
 # Media
 debug.stagefright.c2inputsurface=-1
