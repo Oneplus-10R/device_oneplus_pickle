@@ -27,18 +27,11 @@ on init
     write /sys/devices/system/cpu/cpufreq/policy0/schedutil/rate_limit_us 5000 
     write /sys/devices/system/cpu/cpufreq/policy4/schedutil/rate_limit_us 2000
 
-on post-fs-data
-    # Disable watermark boost
-    write /proc/sys/vm/watermark_boost_factor 0
-
-    # zram
-    write /proc/sys/vm/page-cluster 0
-    write /proc/sys/vm/swappiness 100
-    write /sys/kernel/mm/swap/vma_ra_enabled true
-
+    # ZRAM setup
     write /sys/block/zram0/comp_algorithm lz4
-    swapon_all /vendor/etc/fstab.enableswap
+    write /proc/sys/vm/page-cluster 0
 
+on post-fs-data
     # boot time fs tune
     write /sys/block/mmcblk0/queue/iostats 0
     write /sys/block/mmcblk0/queue/read_ahead_kb 2048
@@ -67,6 +60,10 @@ on boot
     write /dev/cpuctl/background/cpu.uclamp.latency_sensitive 1
 
 on property:sys.boot_completed=1
+    # Enable ZRAM on boot_complete
+    swapon_all /vendor/etc/fstab.enableswap
+    write /proc/sys/vm/swappiness 100
+
     # end boot time fs tune
     write /sys/block/mmcblk0/queue/iostats 1
     write /sys/block/mmcblk0/queue/read_ahead_kb 512
