@@ -243,13 +243,11 @@ persist.vendor.radio.mtk_ps2_rat=N/L/W/G
 persist.vendor.radio.mtk_ps3_rat=G
 persist.vendor.radio.oem_urc_enable=1
 persist.vendor.radio.smart.data.switch=1
-persist.vendor.radio.telecom.vibrate=0
 persist.vendor.vilte_support=1
 persist.vendor.viwifi_support=1
 persist.vendor.volte_support=1
 ro.telephony.default_network=33,33,33,33
 ro.telephony.iwlan_operation_mode=AP-assisted
-ro.telephony.sim.count=2
 ro.vendor.md_auto_setup_ims=1
 ro.vendor.md_prop_ver=1
 ro.vendor.mtk_c2k_lte_mode=0
@@ -283,9 +281,6 @@ ro.vendor.mtk.sensor.support=yes
 # TEE
 ro.vendor.mtk_tee_gp_support=1
 ro.vendor.mtk_trustonic_tee_support=1
-
-# Thermal
-vendor.performance.frs.temp_src=/sys/class/thermal/thermal_zone51/temp
 
 # Verity
 ro.apk_verity.mode=2
