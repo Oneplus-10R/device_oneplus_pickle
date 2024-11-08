@@ -130,9 +130,10 @@
 
     <!-- Indicate available ColorDisplayManager.COLOR_MODE_xxx. -->
     <integer-array name="config_availableColorModes">
-        <item>0</item>
-        <item>1</item>
-        <item>3</item>
+        <item>0</item>    <!-- Vivid, RenderIntent[0], PQModeId[7] -->
+        <item>256</item>  <!-- Natural, RenderIntent[256], PQModeId[23] -->
+        <item>258</item>  <!-- Cinematic, RenderIntent[258], PQModeId[10] -->
+        <item>259</item>  <!-- Brilliant, RenderIntent[259], PQModeId[11] -->
     </integer-array>
 
     <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
