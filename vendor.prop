@@ -142,6 +142,7 @@ ro.vendor.gps.chrdev=gps_drv_dl_v050
 ro.vendor.mtk_log_hide_gps=0
 
 # Graphics
+debug.graphics.game_default_frame_rate.disabled=true
 graphics.gpu.profiler.support=true
 ro.hardware.egl=meow
 ro.hardware.vulkan=mali
