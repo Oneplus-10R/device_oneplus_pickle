@@ -137,9 +137,9 @@
 
     <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
     <integer-array name="config_udfps_sensor_props" translatable="false" >
-        <item>620</item>  <!-- <item>sensorLocationX</item> -->
-        <item>2504</item> <!-- <item>sensorLocationY</item> -->
-        <item>98</item>  <!-- <item>sensorRadius</item> -->
+        <item>540</item>  <!-- <item>sensorLocationX</item> -->
+        <item>2184</item> <!-- <item>sensorLocationY</item> -->
+        <item>86</item>  <!-- <item>sensorRadius</item> -->
     </integer-array>
 
     <!-- List of biometric sensors on the device, in decreasing strength. Consumed by AuthService
