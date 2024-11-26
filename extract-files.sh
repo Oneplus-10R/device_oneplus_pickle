@@ -120,6 +120,7 @@ function blob_fixup() {
             ;;
         vendor/lib64/hw/audio.primary.mediatek.so)
             [ "$2" = "" ] && return 0
+	    "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
             grep -q "libstagefright_foundation-v33.so" "${2}" || "${PATCHELF}" --add-needed "libstagefright_foundation-v33.so" "${2}"
             ;;
         vendor/lib64/hw/mt6895/android.hardware.camera.provider@2.6-impl-mediatek.so)
