@@ -131,6 +131,8 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
             grep -q "libshim_sensors.so" "${2}" || "${PATCHELF}" --add-needed "libshim_sensors.so" "${2}"
+            sed -i 's|/my_product/vendor/etc/cust_silky_brightness_%s_%s.xml|/vendor/etc/cust_silky_brightness_%s_%s.xml\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|g' "${2}"
+            sed -i 's|/my_product/vendor/etc/cust_silky_brightness_%s.xml|/vendor/etc/cust_silky_brightness_%s.xml\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|g' "${2}"
             ;;
         vendor/lib64/lib3a.ae.pipe.so|\
         vendor/lib64/mt6895/lib3a.awbsync.so|\
