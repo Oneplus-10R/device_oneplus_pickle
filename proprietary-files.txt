@@ -886,6 +886,7 @@ odm/bin/crossbuild/DataSet/SQLiteModule/db/feature/mt6895/ParameterDB_feature.db
 odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw_21861/mt6895/ISP_mapping.db;SYMLINK=odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw_21861/ISP_mapping.db
 odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc02m1_mipi_raw_21641/mt6895/ISP_param.db;SYMLINK=odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc02m1_mipi_raw_21641/ISP_param.db
 odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc02m1_mipi_raw_21641/mt6895/ISP_mapping.db;SYMLINK=odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc02m1_mipi_raw_21641/ISP_mapping.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/port_select.db
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_param.db
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/mt6895/top_control_data.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/top_control_data.db
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_mapping.db
