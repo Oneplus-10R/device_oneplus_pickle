@@ -1,532 +1,436 @@
 {
-    "Nodes": [
-      {
-        "Name": "MemFreq",
-        "Path": "/sys/devices/platform/1c00f000.dvfsrc/mtk-dvfsrc-devfreq/devfreq/mtk-dvfsrc-devfreq/userspace/set_freq",
-        "Values": [
-          "9999999999",
-          "7500000000",
-          "6400000000",
-          "5500000000",
-          "4266000000",
-          "3200000000",
-          "2667000000",
-          "2133000000",
-          "1866000000",
-          "800000000",
-          "0"
-        ],
-        "ResetOnInit": true,
-        "Comments": [
-          "It is userspace gov, powerhal will have exclusive and direct control of the freq"
-        ]
-      },
-      {
-        "Name": "GpuPwrLevel",
-        "Path": "/proc/gpufreqv2/fix_target_opp_index",
-        "Values": [
-          "-1",
-          "0",
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15",
-          "16",
-          "17",
-          "18",
-          "19",
-          "20",
-          "21",
-          "22",
-          "23",
-          "24",
-          "25",
-          "26",
-          "27",
-          "28",
-          "29",
-          "30",
-          "31",
-          "32",
-          "33",
-          "34",
-          "35",
-          "36",
-          "37",
-          "38",
-          "39",
-          "40"
-        ],
-        "ResetOnInit": true,
-        "DefaultIndex": 0,
-        "Comments": [
-          "[-1] normal",
-          "[00] freq: 848000, volt: 67500, vsram: 75000, posdiv: 2, vaging: 0, power: 2312",
-          "[01] freq: 841000, volt: 67500, vsram: 75000, posdiv: 2, vaging: 0, power: 2289",
-          "[02] freq: 835000, volt: 66875, vsram: 75000, posdiv: 2, vaging: 0, power: 2234",
-          "[03] freq: 828000, volt: 66875, vsram: 75000, posdiv: 2, vaging: 0, power: 2211",
-          "[04] freq: 822000, volt: 66250, vsram: 75000, posdiv: 2, vaging: 0, power: 2135",
-          "[05] freq: 816000, volt: 66250, vsram: 75000, posdiv: 2, vaging: 0, power: 2135",
-          "[06] freq: 809000, volt: 65625, vsram: 75000, posdiv: 2, vaging: 0, power: 2112",
-          "[07] freq: 803000, volt: 65625, vsram: 75000, posdiv: 2, vaging: 0, power: 2089",
-          "[08] freq: 797000, volt: 65000, vsram: 75000, posdiv: 2, vaging: 0, power: 2016",
-          "[09] freq: 770000, volt: 64375, vsram: 75000, posdiv: 2, vaging: 0, power: 1901",
-          "[10] freq: 744000, volt: 63750, vsram: 75000, posdiv: 2, vaging: 0, power: 1792",
-          "[11] freq: 717000, volt: 63125, vsram: 75000, posdiv: 2, vaging: 0, power: 1685",
-          "[12] freq: 691000, volt: 62500, vsram: 75000, posdiv: 2, vaging: 0, power: 1623",
-          "[13] freq: 665000, volt: 61875, vsram: 75000, posdiv: 2, vaging: 0, power: 1541",
-          "[14] freq: 638000, volt: 61250, vsram: 75000, posdiv: 2, vaging: 0, power: 1443",
-          "[15] freq: 612000, volt: 60625, vsram: 75000, posdiv: 2, vaging: 0, power: 1348",
-          "[16] freq: 586000, volt: 60000, vsram: 75000, posdiv: 2, vaging: 0, power: 1290",
-          "[17] freq: 569000, volt: 60000, vsram: 75000, posdiv: 2, vaging: 0, power: 1252",
-          "[18] freq: 552000, volt: 59375, vsram: 75000, posdiv: 2, vaging: 0, power: 1183",
-          "[19] freq: 535000, volt: 58750, vsram: 75000, posdiv: 2, vaging: 0, power: 1115",
-          "[20] freq: 518000, volt: 58125, vsram: 75000, posdiv: 2, vaging: 0, power: 1049",
-          "[21] freq: 501000, volt: 57500, vsram: 75000, posdiv: 2, vaging: 0, power: 987",
-          "[22] freq: 484000, volt: 56875, vsram: 75000, posdiv: 2, vaging: 0, power: 952",
-          "[23] freq: 467000, volt: 56250, vsram: 75000, posdiv: 2, vaging: 0, power: 892",
-          "[24] freq: 451000, volt: 55625, vsram: 75000, posdiv: 2, vaging: 0, power: 834",
-          "[25] freq: 434000, volt: 55625, vsram: 75000, posdiv: 2, vaging: 0, power: 803",
-          "[26] freq: 417000, volt: 55000, vsram: 75000, posdiv: 2, vaging: 0, power: 764",
-          "[27] freq: 400000, volt: 54375, vsram: 75000, posdiv: 2, vaging: 0, power: 712",
-          "[28] freq: 383000, volt: 53750, vsram: 75000, posdiv: 2, vaging: 0, power: 681",
-          "[29] freq: 366000, volt: 53125, vsram: 75000, posdiv: 3, vaging: 0, power: 631",
-          "[30] freq: 349000, volt: 52500, vsram: 75000, posdiv: 3, vaging: 0, power: 584",
-          "[31] freq: 332000, volt: 51875, vsram: 75000, posdiv: 3, vaging: 0, power: 539",
-          "[32] freq: 316000, volt: 51250, vsram: 75000, posdiv: 3, vaging: 0, power: 510",
-          "[33] freq: 303000, volt: 51250, vsram: 75000, posdiv: 3, vaging: 0, power: 496",
-          "[34] freq: 290000, volt: 50625, vsram: 75000, posdiv: 3, vaging: 0, power: 454",
-          "[35] freq: 277000, volt: 50000, vsram: 75000, posdiv: 3, vaging: 0, power: 427",
-          "[36] freq: 265000, volt: 49375, vsram: 75000, posdiv: 3, vaging: 0, power: 388",
-          "[37] freq: 252000, volt: 49375, vsram: 75000, posdiv: 3, vaging: 0, power: 376",
-          "[38] freq: 239000, volt: 48750, vsram: 75000, posdiv: 3, vaging: 0, power: 339",
-          "[39] freq: 226000, volt: 48125, vsram: 75000, posdiv: 3, vaging: 0, power: 326",
-          "[40] freq: 214000, volt: 47500, vsram: 75000, posdiv: 3, vaging: 0, power: 305"
-        ]
-      },
-      {
-        "Name": "CPUEfficiencyClusterMaxFreq",
-        "Path": "/sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq",
-        "Values": [
-          "9999999",
-          "1800000",
-          "1700000",
-          "1600000",
-          "1500000",
-          "1450000",
-          "1400000",
-          "1350000",
-          "1300000",
-          "1250000",
-          "1200000",
-          "1150000",
-          "1100000",
-          "1050000",
-          "1000000",
-          "950000",
-          "900000",
-          "850000",
-          "800000",
-          "750000",
-          "700000",
-          "650000",
-          "600000",
-          "550000",
-          "500000",
-          "450000",
-          "400000",
-          "350000",
-          "300000",
-          "250000",
-          "200000"
-        ],
-        "DefaultIndex": 0,
-        "ResetOnInit": true
-      },
-      {
-        "Name": "CPUEfficiencyClusterMinFreq",
-        "Path": "/sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq",
-        "Values": [
-          "9999999",
-          "1800000",
-          "1700000",
-          "1600000",
-          "1500000",
-          "1450000",
-          "1400000",
-          "1350000",
-          "1300000",
-          "1250000",
-          "1200000",
-          "1150000",
-          "1100000",
-          "1050000",
-          "1000000",
-          "950000",
-          "900000",
-          "850000",
-          "800000",
-          "750000",
-          "700000",
-          "650000",
-          "600000",
-          "550000",
-          "500000",
-          "450000",
-          "400000",
-          "350000",
-          "300000",
-          "250000",
-          "200000"
-        ],
-        "ResetOnInit": true
-      },
-      {
-        "Name": "CPUSuperClusterMaxFreq",
-        "Path": "/sys/devices/system/cpu/cpu4/cpufreq/scaling_max_freq",
-        "Values": [
-          "9999999",
-          "2850000",
-          "2750000",
-          "2650000",
-          "2550000",
-          "2500000",
-          "2450000",
-          "2400000",
-          "2350000",
-          "2300000",
-          "2250000",
-          "2200000",
-          "2150000",
-          "2050000",
-          "2000000",
-          "1900000",
-          "1800000",
-          "1700000",
-          "1600000",
-          "1500000",
-          "1400000",
-          "1300000",
-          "1200000",
-          "1100000",
-          "1000000",
-          "900000",
-          "800000",
-          "700000",
-          "600000",
-          "500000",
-          "400000"
-        ],
-        "DefaultIndex": 0,
-        "ResetOnInit": true
-      },
-      {
-        "Name": "CPUSuperClusterMinFreq",
-        "Path": "/sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq",
-        "Values": [
-          "9999999",
-          "2850000",
-          "2750000",
-          "2650000",
-          "2550000",
-          "2500000",
-          "2450000",
-          "2400000",
-          "2350000",
-          "2300000",
-          "2250000",
-          "2200000",
-          "2150000",
-          "2050000",
-          "2000000",
-          "1900000",
-          "1800000",
-          "1700000",
-          "1600000",
-          "1500000",
-          "1400000",
-          "1300000",
-          "1200000",
-          "1100000",
-          "1000000",
-          "900000",
-          "800000",
-          "700000",
-          "600000",
-          "500000",
-          "400000"
-        ],
-        "ResetOnInit": true
-      },
-      {
-        "Name": "CPUUltraClusterMaxFreq",
-        "Path": "/sys/devices/system/cpu/cpu7/cpufreq/scaling_max_freq",
-        "Values": [
-          "9999999",
-          "3050000",
-          "3000000",
-          "2900000",
-          "2850000",
-          "2800000",
-          "2750000",
-          "2700000",
-          "2650000",
-          "2600000",
-          "2550000",
-          "2500000",
-          "2450000",
-          "2400000",
-          "2350000",
-          "2300000",
-          "2250000",
-          "2200000",
-          "2150000",
-          "2050000",
-          "2000000",
-          "1900000",
-          "1800000",
-          "1700000",
-          "1600000",
-          "1500000",
-          "1400000",
-          "1300000"
-        ],
-        "DefaultIndex": 0,
-        "ResetOnInit": true
-      },
-      {
-        "Name": "CPUUltraClusterMinFreq",
-        "Path": "/sys/devices/system/cpu/cpu7/cpufreq/scaling_min_freq",
-        "Values": [
-          "9999999",
-          "3050000",
-          "3000000",
-          "2900000",
-          "2850000",
-          "2800000",
-          "2750000",
-          "2700000",
-          "2650000",
-          "2600000",
-          "2550000",
-          "2500000",
-          "2450000",
-          "2400000",
-          "2350000",
-          "2300000",
-          "2250000",
-          "2200000",
-          "2150000",
-          "2050000",
-          "2000000",
-          "1900000",
-          "1800000",
-          "1700000",
-          "1600000",
-          "1500000",
-          "1400000",
-          "1300000"
-        ],
-        "ResetOnInit": true
-      },
-      {
-        "Name": "PMQoSCpuDmaLatency",
-        "Path": "/dev/cpu_dma_latency",
-        "Values": [
-          "51",
-          "0"
-        ],
-        "HoldFd": true
-      },
-      {
-        "Name": "UclampTAMin",
-        "Path": "/dev/cpuctl/top-app/cpu.uclamp.min",
-        "Values": [
-          "10",
-          "100"
-        ],
-        "DefaultIndex": 0,
-        "ResetOnInit": true
-      },
-      {
-        "Name": "RestrictedCpuset",
-        "Path": "/dev/cpuset/restricted/cpus",
-        "Values": [
-          "0-3",
-          "0-7"
-        ],
-        "ResetOnInit": false
-      },
-      {
-        "Name": "PowerHALRenderingState",
-        "Path": "vendor.powerhal.rendering",
-        "Values": [
-          "EXPENSIVE_RENDERING",
-          ""
-        ],
-        "Type": "Property"
-      },
-      {
-        "Name": "Dex2oatThreads",
-        "Path": "vendor.powerhal.dalvik.vm.dex2oat-threads",
-        "Values": [
-          "6"
-        ],
-        "Type": "Property"
-      },
-      {
-        "Name": "Dex2oatCPUSet",
-        "Path": "vendor.powerhal.dalvik.vm.dex2oat-cpu-set",
-        "Values": [
-          "0,1,2,3,4,5,6"
-        ],
-        "Type": "Property"
-      }
-    ],
-      "Actions": [
-        {
-          "PowerHint": "INTERACTION",
-          "Node": "CPUEfficiencyClusterMinFreq",
-          "Duration": 58,
-          "Value": "1400000"
-        },
-        {
-          "PowerHint": "INTERACTION",
-          "Node": "CPUSuperClusterMinFreq",
-          "Duration": 58,
-          "Value": "1400000"
-        },
-        {
-          "PowerHint": "INTERACTION",
-          "Node": "CPUUltraClusterMinFreq",
-          "Duration": 58,
-          "Value": "1300000"
-        },
-        {
-          "PowerHint": "LAUNCH",
-          "Node": "CPUUltraClusterMinFreq",
-          "Duration": 1500,
-          "Value": "9999999"
-        },
-        {
-          "PowerHint": "LAUNCH",
-          "Node": "CPUSuperClusterMinFreq",
-          "Duration": 1500,
-          "Value": "9999999"
-        },
-        {
-          "PowerHint": "LAUNCH",
-          "Node": "CPUEfficiencyClusterMinFreq",
-          "Duration": 1500,
-          "Value": "9999999"
-        },
-        {
-          "PowerHint": "LAUNCH",
-          "Node": "MemFreq",
-          "Duration": 1500,
-          "Value": "9999999999"
-        },
-        {
-          "PowerHint": "LAUNCH",
-          "Node": "UclampTAMin",
-          "Duration": 1500,
-          "Value": "100"
-        },
-        {
-          "PowerHint": "FIXED_PERFORMANCE",
-          "Node": "GpuPwrLevel",
-          "Duration": 0,
-          "Value": "0"
-        },
-        {
-          "PowerHint": "FIXED_PERFORMANCE",
-          "Node": "CPUUltraClusterMaxFreq",
-          "Duration": 0,
-          "Value": "9999999"
-        },
-        {
-          "PowerHint": "FIXED_PERFORMANCE",
-          "Node": "CPUUltraClusterMinFreq",
-          "Duration": 0,
-          "Value": "9999999"
-        },
-        {
-          "PowerHint": "FIXED_PERFORMANCE",
-          "Node": "CPUSuperClusterMaxFreq",
-          "Duration": 0,
-          "Value": "9999999"
-        },
-        {
-          "PowerHint": "FIXED_PERFORMANCE",
-          "Node": "CPUSuperClusterMinFreq",
-          "Duration": 0,
-          "Value": "9999999"
-        },
-        {
-          "PowerHint": "FIXED_PERFORMANCE",
-          "Node": "CPUEfficiencyClusterMaxFreq",
-          "Duration": 0,
-          "Value": "9999999"
-        },
-        {
-          "PowerHint": "FIXED_PERFORMANCE",
-          "Node": "CPUEfficiencyClusterMinFreq",
-          "Duration": 0,
-          "Value": "9999999"
-        },
-        {
-          "PowerHint": "FIXED_PERFORMANCE",
-          "Node": "UclampTAMin",
-          "Duration": 0,
-          "Value": "100"
-        },
-        {
-          "PowerHint": "FIXED_PERFORMANCE",
-          "Node": "MemFreq",
-          "Duration": 0,
-          "Value": "9999999999"
-        },
-        {
-          "PowerHint": "EXPENSIVE_RENDERING",
-          "Node": "PowerHALRenderingState",
-          "Duration": 0,
-          "Value": "EXPENSIVE_RENDERING"
-        },
-        {
-          "PowerHint": "EXPENSIVE_RENDERING",
-          "Node": "GpuPwrLevel",
-          "Duration": 0,
-          "Value": "0"
-        },
-        {
-          "PowerHint": "ML_ACC",
-          "Node": "PMQoSCpuDmaLatency",
-          "Duration": 1500,
-          "Value": "51"
-        },
-        {
-          "PowerHint": "DEVICE_IDLE",
-          "Node": "RestrictedCpuset",
-          "Duration": 0,
-          "Value": "0-3"
-        },
-        {
-          "PowerHint": "DISPLAY_INACTIVE",
-          "Node": "RestrictedCpuset",
-          "Duration": 0,
-          "Value": "0-3"
-        }
+  "Nodes": [
+    {
+      "Name": "MemFreq",
+      "Path": "/sys/devices/platform/soc/1c00f000.dvfsrc/mtk-dvfsrc-devfreq/devfreq/mtk-dvfsrc-devfreq/userspace/set_freq",
+      "Values": [
+        "9999999999",
+        "6400000000",
+        "5500000000",
+        "4266000000",
+        "3200000000",
+        "2667000000",
+        "2133000000",
+        "1866000000",
+        "800000000",
+        "0"
+      ],
+      "ResetOnInit": true,
+      "Comments": [
+        "It is userspace gov, powerhal will have exclusive and direct control of the freq"
       ]
-  }
-  
+    },
+    {
+      "Name": "GpuPwrLevel",
+      "Path": "/proc/gpufreqv2/fix_target_opp_index",
+      "Values": [
+        "-1",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "ResetOnInit": true,
+      "DefaultIndex": 0,
+      "Comments": [
+        "[-1] normal",
+        "[0] freq: 852000, volt: 67500, vsram: 75000, posdiv: 2, vaging: 0, power: 1691",
+        "[1] freq: 845000, volt: 66875, vsram: 75000, posdiv: 2, vaging: 0, power: 1638",
+        "[2] freq: 837000, volt: 66875, vsram: 75000, posdiv: 2, vaging: 0, power: 1622",
+        "[3] freq: 830000, volt: 66250, vsram: 75000, posdiv: 2, vaging: 0, power: 1570",
+        "[4] freq: 822000, volt: 66250, vsram: 75000, posdiv: 2, vaging: 0, power: 1554",
+        "[5] freq: 815000, volt: 65625, vsram: 75000, posdiv: 2, vaging: 0, power: 1520",
+        "[6] freq: 807000, volt: 65625, vsram: 75000, posdiv: 2, vaging: 0, power: 1504",
+        "[7] freq: 800000, volt: 65000, vsram: 75000, posdiv: 2, vaging: 0, power: 1455",
+        "[8] freq: 773000, volt: 65000, vsram: 75000, posdiv: 2, vaging: 0, power: 1410",
+        "[9] freq: 747000, volt: 65000, vsram: 75000, posdiv: 2, vaging: 0, power: 1364",
+        "[10] freq: 721000, volt: 65000, vsram: 75000, posdiv: 2, vaging: 0, power: 1319",
+        "[11] freq: 695000, volt: 64375, vsram: 75000, posdiv: 2, vaging: 0, power: 1230",
+        "[12] freq: 668000, volt: 64375, vsram: 75000, posdiv: 2, vaging: 0, power: 1185",
+        "[13] freq: 642000, volt: 64375, vsram: 75000, posdiv: 2, vaging: 0, power: 1141",
+        "[14] freq: 616000, volt: 64375, vsram: 75000, posdiv: 2, vaging: 0, power: 1096",
+        "[15] freq: 590000, volt: 63750, vsram: 75000, posdiv: 2, vaging: 0, power: 1052",
+        "[16] freq: 572000, volt: 63125, vsram: 75000, posdiv: 2, vaging: 0, power: 999",
+        "[17] freq: 555000, volt: 62500, vsram: 75000, posdiv: 2, vaging: 0, power: 948",
+        "[18] freq: 538000, volt: 61875, vsram: 75000, posdiv: 2, vaging: 0, power: 898",
+        "[19] freq: 521000, volt: 61250, vsram: 75000, posdiv: 2, vaging: 0, power: 850",
+        "[20] freq: 504000, volt: 60625, vsram: 75000, posdiv: 2, vaging: 0, power: 804",
+        "[21] freq: 487000, volt: 60000, vsram: 75000, posdiv: 2, vaging: 0, power: 778",
+        "[22] freq: 470000, volt: 59375, vsram: 75000, posdiv: 2, vaging: 0, power: 734",
+        "[23] freq: 453000, volt: 58125, vsram: 75000, posdiv: 2, vaging: 0, power: 674",
+        "[24] freq: 436000, volt: 57500, vsram: 75000, posdiv: 2, vaging: 0, power: 634",
+        "[25] freq: 419000, volt: 56875, vsram: 75000, posdiv: 2, vaging: 0, power: 595",
+        "[26] freq: 402000, volt: 56250, vsram: 75000, posdiv: 2, vaging: 0, power: 572",
+        "[27] freq: 385000, volt: 55625, vsram: 75000, posdiv: 2, vaging: 0, power: 535",
+        "[28] freq: 368000, volt: 55000, vsram: 75000, posdiv: 3, vaging: 0, power: 499",
+        "[29] freq: 351000, volt: 54375, vsram: 75000, posdiv: 3, vaging: 0, power: 465",
+        "[30] freq: 334000, volt: 53750, vsram: 75000, posdiv: 3, vaging: 0, power: 433",
+        "[31] freq: 317000, volt: 52500, vsram: 75000, posdiv: 3, vaging: 0, power: 401",
+        "[32] freq: 304000, volt: 52500, vsram: 75000, posdiv: 3, vaging: 0, power: 381",
+        "[33] freq: 292000, volt: 51875, vsram: 75000, posdiv: 3, vaging: 0, power: 362",
+        "[34] freq: 280000, volt: 51250, vsram: 75000, posdiv: 3, vaging: 0, power: 342",
+        "[35] freq: 268000, volt: 50625, vsram: 75000, posdiv: 3, vaging: 0, power: 315",
+        "[36] freq: 255000, volt: 50625, vsram: 75000, posdiv: 3, vaging: 0, power: 306",
+        "[37] freq: 243000, volt: 50000, vsram: 75000, posdiv: 3, vaging: 0, power: 280",
+        "[38] freq: 231000, volt: 49375, vsram: 75000, posdiv: 3, vaging: 0, power: 263",
+        "[39] freq: 219000, volt: 48750, vsram: 75000, posdiv: 3, vaging: 0, power: 246"
+      ]
+    },
+    {
+      "Name": "CPULittleClusterMaxFreq",
+      "Path": "/sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq",
+      "Values": [
+        "9999999",
+        "2000000",
+        "1900000",
+        "1850000",
+        "1800000",
+        "1750000",
+        "1700000",
+        "1650000",
+        "1600000",
+        "1550000",
+        "1500000",
+        "1450000",
+        "1400000",
+        "1350000",
+        "1300000",
+        "1250000",
+        "1200000",
+        "1150000",
+        "1100000",
+        "1050000",
+        "1000000",
+        "950000",
+        "900000",
+        "850000",
+        "800000",
+        "750000",
+        "700000",
+        "650000",
+        "600000",
+        "550000",
+        "500000",
+        "450000",
+        "400000"
+      ],
+      "DefaultIndex": 0,
+      "ResetOnInit": true
+    },
+    {
+      "Name": "CPULittleClusterMinFreq",
+      "Path": "/sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq",
+      "Values": [
+        "9999999",
+        "2000000",
+        "1900000",
+        "1850000",
+        "1800000",
+        "1750000",
+        "1700000",
+        "1650000",
+        "1600000",
+        "1550000",
+        "1500000",
+        "1450000",
+        "1400000",
+        "1350000",
+        "1300000",
+        "1250000",
+        "1200000",
+        "1150000",
+        "1100000",
+        "1050000",
+        "1000000",
+        "950000",
+        "900000",
+        "850000",
+        "800000",
+        "750000",
+        "700000",
+        "650000",
+        "600000",
+        "550000",
+        "500000",
+        "450000",
+        "400000"
+      ],
+      "ResetOnInit": true
+    },
+    {
+      "Name": "CPUBigClusterMaxFreq",
+      "Path": "/sys/devices/system/cpu/cpu6/cpufreq/scaling_max_freq",
+      "Values": [
+        "9999999",
+        "2850000",
+        "2750000",
+        "2650000",
+        "2550000",
+        "2450000",
+        "2400000",
+        "2350000",
+        "2300000",
+        "2250000",
+        "2200000",
+        "2150000",
+        "2100000",
+        "2050000",
+        "2000000",
+        "1900000",
+        "1800000",
+        "1700000",
+        "1600000",
+        "1500000",
+        "1400000",
+        "1300000",
+        "1200000",
+        "1100000",
+        "1000000",
+        "900000",
+        "800000",
+        "700000",
+        "600000",
+        "500000",
+        "400000",
+        "300000",
+        "200000"
+      ],
+      "DefaultIndex": 0,
+      "ResetOnInit": true
+    },
+    {
+      "Name": "CPUBigClusterMinFreq",
+      "Path": "/sys/devices/system/cpu/cpu6/cpufreq/scaling_min_freq",
+      "Values": [
+        "9999999",
+        "2850000",
+        "2750000",
+        "2650000",
+        "2550000",
+        "2450000",
+        "2400000",
+        "2350000",
+        "2300000",
+        "2250000",
+        "2200000",
+        "2150000",
+        "2100000",
+        "2050000",
+        "2000000",
+        "1900000",
+        "1800000",
+        "1700000",
+        "1600000",
+        "1500000",
+        "1400000",
+        "1300000",
+        "1200000",
+        "1100000",
+        "1000000",
+        "900000",
+        "800000",
+        "700000",
+        "600000",
+        "500000",
+        "400000",
+        "300000",
+        "200000"
+      ],
+      "ResetOnInit": true
+    },
+    {
+      "Name": "PMQoSCpuDmaLatency",
+      "Path": "/dev/cpu_dma_latency",
+      "Values": [
+        "51",
+        "0"
+      ],
+      "HoldFd": true
+    },
+    {
+      "Name": "CDCpuset",
+      "Path": "/dev/cpuset/camera-daemon/cpus",
+      "Values": [
+        "0-5",
+        "6-7",
+        "0-7"
+      ],
+      "ResetOnInit": true
+    },
+    {
+      "Name": "UclampTAMin",
+      "Path": "/dev/cpuctl/top-app/cpu.uclamp.min",
+      "Values": [
+        "10",
+        "100"
+      ],
+      "DefaultIndex": 0,
+      "ResetOnInit": true
+    },
+    {
+      "Name": "PowerHALRenderingState",
+      "Path": "vendor.powerhal.rendering",
+      "Values": [
+        "EXPENSIVE_RENDERING",
+        ""
+      ],
+      "Type": "Property"
+    },
+    {
+      "Name": "Dex2oatThreads",
+      "Path": "vendor.powerhal.dalvik.vm.dex2oat-threads",
+      "Values": [
+        "1",
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "Type": "Property"
+    },
+    {
+      "Name": "Dex2oatCPUSet",
+      "Path": "vendor.powerhal.dalvik.vm.dex2oat-cpu-set",
+      "Values": [
+        "0,1,2,3",
+        "0,1,2,3,4,5",
+        "0,1,2,3,4,5,6,7"
+      ],
+      "Type": "Property"
+    }
+  ],
+  "Actions": [
+    {
+      "PowerHint": "INTERACTION",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 58,
+      "Value": "1400000"
+    },
+    {
+      "PowerHint": "INTERACTION",
+      "Node": "CPUBigClusterMinFreq",
+      "Duration": 58,
+      "Value": "1400000"
+    },
+    {
+      "PowerHint": "LAUNCH",
+      "Node": "CPUBigClusterMinFreq",
+      "Duration": 1500,
+      "Value": "9999999"
+    },
+    {
+      "PowerHint": "LAUNCH",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 1500,
+      "Value": "9999999"
+    },
+    {
+      "PowerHint": "LAUNCH",
+      "Node": "MemFreq",
+      "Duration": 1500,
+      "Value": "9999999999"
+    },
+    {
+      "PowerHint": "LAUNCH",
+      "Node": "UclampTAMin",
+      "Duration": 1500,
+      "Value": "100"
+    }, 
+    {
+      "PowerHint": "FIXED_PERFORMANCE",
+      "Node": "GpuPwrLevel",
+      "Duration": 0,
+      "Value": "0"
+    },   
+    {
+      "PowerHint": "FIXED_PERFORMANCE",
+      "Node": "CPUBigClusterMaxFreq",
+      "Duration": 0,
+      "Value": "9999999"
+    },
+    {
+      "PowerHint": "FIXED_PERFORMANCE",
+      "Node": "CPUBigClusterMinFreq",
+      "Duration": 0,
+      "Value": "9999999"
+    },
+    {
+      "PowerHint": "FIXED_PERFORMANCE",
+      "Node": "CPULittleClusterMaxFreq",
+      "Duration": 0,
+      "Value": "9999999"
+    },
+    {
+      "PowerHint": "FIXED_PERFORMANCE",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 0,
+      "Value": "9999999"
+    },
+    {
+      "PowerHint": "FIXED_PERFORMANCE",
+      "Node": "UclampTAMin",
+      "Duration": 0,
+      "Value": "100"
+    },
+    {
+      "PowerHint": "FIXED_PERFORMANCE",
+      "Node": "MemFreq",
+      "Duration": 0,
+      "Value": "9999999999"
+    },
+    {
+      "PowerHint": "EXPENSIVE_RENDERING",
+      "Node": "PowerHALRenderingState",
+      "Duration": 0,
+      "Value": "EXPENSIVE_RENDERING"
+    },
+    {
+      "PowerHint": "EXPENSIVE_RENDERING",
+      "Node": "GpuPwrLevel",
+      "Duration": 0,
+      "Value": "0"
+    },
+    {
+      "PowerHint": "ML_ACC",
+      "Node": "PMQoSCpuDmaLatency",
+      "Duration": 2000,
+      "Value": "51"
+    }
+  ]
+}
