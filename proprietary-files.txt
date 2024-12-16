@@ -419,6 +419,10 @@ odm/etc/audio/smartpa_param/tfa98xx_ringtone.bin
 odm/etc/audio/smartpa_param/tfa98xx_voice.bin
 odm/etc/audio/smartpa_param/tfa98xx_voip.bin
 
+# Audio (Test path)
+odm/etc/audio/test_path/common/mixer_paths.xml
+odm/etc/audio/test_path/engineer_test_paths.xml
+
 # Audio firmware
 odm/firmware/tfa98xx.cnt
 
