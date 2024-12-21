@@ -376,9 +376,6 @@
     <!-- MMS user agent prolfile url -->
     <string name="config_mms_user_agent_profile_url" translatable="false">http://www.google.com/oha/rdf/ua-profile-kila.xml</string>
 
-    <!-- Remote server that can provide NTP responses. -->
-    <string translatable="false" name="config_ntpServer">pool.ntp.org</string>
-
     <!-- Enables or disables haptic effect when the text insertion/selection handle is moved
          manually by the user. Off by default, since the expected haptic feedback may not be
          available on some devices. -->
