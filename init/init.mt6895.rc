@@ -62,12 +62,6 @@ on charger
     chmod 0660 /sys/power/wakeup_count
     write /sys/power/pm_freeze_timeout 2000
 
-##ifndef OPLUS_FEATURE_CHG_BASIC
-#/* LiYue@CHG.BSP.BASIC, 2021/09/22, remove platform gauge */
-    start fuelgauged
-    start fuelgauged_nvram
-##endif
-
     chown system system /sys/class/leds/lcd-backlight/brightness
 
     # Stop bootprof
@@ -981,17 +975,3 @@ service osi /system/bin/osi
     disabled
     oneshot
     #seclabel u:r:osi:s0
-
-##ifdef OPLUS_FEATURE_CHG_BASIC
-##/* LiYue@CHG.BSP.BASIC, 2021/09/22, move from fuelgauged_init.rc and fuelgauged_nvram_init.rc */
-service fuelgauged /vendor/bin/fuelgauged
-   class core
-   user system
-   group system
-
-service fuelgauged_nvram /vendor/bin/fuelgauged_nvram
-   class main
-   user system
-   group system
-   oneshot
-##endif
