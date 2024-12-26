@@ -1380,7 +1380,6 @@ vendor/lib64/vendor.trustonic.hardware.soter-V1-ndk_platform.so
 # Tether offload
 vendor/bin/hw/tetheroffloadservice
 vendor/bin/netdagent
-vendor/bin/netdc
 vendor/etc/init/netdagent.rc
 vendor/etc/init/networksetting.rc
 vendor/etc/init/tetheroffloadservice.rc
