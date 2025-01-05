@@ -871,30 +871,30 @@ odm/lib64/mt6895/s5k3p9sp_mipi_raw_21861_tuning.so;SYMLINK=odm/lib64/s5k3p9sp_mi
 vendor/lib64/mt6895/libmtkcam_ulog.so;SYMLINK=vendor/lib64/libmtkcam_ulog.so
 
 # Camera SQLiteModule database
-odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw_21861/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw_21861/ISP_param.db
-odm/bin/crossbuild/DataSet/SQLiteModule/db/pipeline/mt6895/ParameterDB_pipeline.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/pipeline/ParameterDB_pipeline.db
-odm/bin/crossbuild/DataSet/SQLiteModule/db/tone/mt6895/ParameterDB_tone.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tone/ParameterDB_tone.db
-odm/bin/crossbuild/DataSet/SQLiteModule/db/flash/mt6895/ParameterDB_flash.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/flash/ParameterDB_flash.db
-odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766_mipi_raw_21861/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766_mipi_raw_21861/ISP_mapping.db
-odm/bin/crossbuild/DataSet/SQLiteModule/db/ae/mt6895/ParameterDB_ae.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/ae/ParameterDB_ae.db
-odm/bin/crossbuild/DataSet/SQLiteModule/db/flashcali/mt6895/ParameterDB_flashcali.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/flashcali/ParameterDB_flashcali.db
-odm/bin/crossbuild/DataSet/SQLiteModule/db/mt6895/ParameterDB.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/ParameterDB.db
-odm/bin/crossbuild/DataSet/SQLiteModule/db/awbsync/mt6895/ParameterDB_awbsync.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/awbsync/ParameterDB_awbsync.db
-odm/bin/crossbuild/DataSet/SQLiteModule/db/af/mt6895/ParameterDB_af.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/af/ParameterDB_af.db
-odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx355_mipi_raw_21861/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx355_mipi_raw_21861/ISP_param.db
-odm/bin/crossbuild/DataSet/SQLiteModule/db/awb/mt6895/ParameterDB_awb.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/awb/ParameterDB_awb.db
-odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx355_mipi_raw_21861/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx355_mipi_raw_21861/ISP_mapping.db
-odm/bin/crossbuild/DataSet/SQLiteModule/db/pd/mt6895/ParameterDB_pd.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/pd/ParameterDB_pd.db
-odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766_mipi_raw_21861/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766_mipi_raw_21861/ISP_param.db
-odm/bin/crossbuild/DataSet/SQLiteModule/db/feature/mt6895/ParameterDB_feature.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/feature/ParameterDB_feature.db
-odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw_21861/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw_21861/ISP_mapping.db
-odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc02m1_mipi_raw_21641/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc02m1_mipi_raw_21641/ISP_param.db
-odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc02m1_mipi_raw_21641/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc02m1_mipi_raw_21641/ISP_mapping.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/port_select.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_param.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/mt6895/top_control_data.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/top_control_data.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_mapping.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mt6895/ISP_info.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ISP_info.db
+odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw_21861/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw_21861/ISP_param.db;MAKE_COPY_RULE_ONLY
+odm/bin/crossbuild/DataSet/SQLiteModule/db/pipeline/mt6895/ParameterDB_pipeline.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/pipeline/ParameterDB_pipeline.db;MAKE_COPY_RULE_ONLY
+odm/bin/crossbuild/DataSet/SQLiteModule/db/tone/mt6895/ParameterDB_tone.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tone/ParameterDB_tone.db;MAKE_COPY_RULE_ONLY
+odm/bin/crossbuild/DataSet/SQLiteModule/db/flash/mt6895/ParameterDB_flash.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/flash/ParameterDB_flash.db;MAKE_COPY_RULE_ONLY
+odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766_mipi_raw_21861/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766_mipi_raw_21861/ISP_mapping.db;MAKE_COPY_RULE_ONLY
+odm/bin/crossbuild/DataSet/SQLiteModule/db/ae/mt6895/ParameterDB_ae.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/ae/ParameterDB_ae.db;MAKE_COPY_RULE_ONLY
+odm/bin/crossbuild/DataSet/SQLiteModule/db/flashcali/mt6895/ParameterDB_flashcali.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/flashcali/ParameterDB_flashcali.db;MAKE_COPY_RULE_ONLY
+odm/bin/crossbuild/DataSet/SQLiteModule/db/mt6895/ParameterDB.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/ParameterDB.db;MAKE_COPY_RULE_ONLY
+odm/bin/crossbuild/DataSet/SQLiteModule/db/awbsync/mt6895/ParameterDB_awbsync.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/awbsync/ParameterDB_awbsync.db;MAKE_COPY_RULE_ONLY
+odm/bin/crossbuild/DataSet/SQLiteModule/db/af/mt6895/ParameterDB_af.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/af/ParameterDB_af.db;MAKE_COPY_RULE_ONLY
+odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx355_mipi_raw_21861/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx355_mipi_raw_21861/ISP_param.db;MAKE_COPY_RULE_ONLY
+odm/bin/crossbuild/DataSet/SQLiteModule/db/awb/mt6895/ParameterDB_awb.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/awb/ParameterDB_awb.db;MAKE_COPY_RULE_ONLY
+odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx355_mipi_raw_21861/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx355_mipi_raw_21861/ISP_mapping.db;MAKE_COPY_RULE_ONLY
+odm/bin/crossbuild/DataSet/SQLiteModule/db/pd/mt6895/ParameterDB_pd.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/pd/ParameterDB_pd.db;MAKE_COPY_RULE_ONLY
+odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766_mipi_raw_21861/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766_mipi_raw_21861/ISP_param.db;MAKE_COPY_RULE_ONLY
+odm/bin/crossbuild/DataSet/SQLiteModule/db/feature/mt6895/ParameterDB_feature.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/feature/ParameterDB_feature.db;MAKE_COPY_RULE_ONLY
+odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw_21861/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw_21861/ISP_mapping.db;MAKE_COPY_RULE_ONLY
+odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc02m1_mipi_raw_21641/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc02m1_mipi_raw_21641/ISP_param.db;MAKE_COPY_RULE_ONLY
+odm/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc02m1_mipi_raw_21641/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/gc02m1_mipi_raw_21641/ISP_mapping.db;MAKE_COPY_RULE_ONLY
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/port_select.db;MAKE_COPY_RULE_ONLY
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6895/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_param.db;MAKE_COPY_RULE_ONLY
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/mt6895/top_control_data.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/top_control_data.db;MAKE_COPY_RULE_ONLY
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6895/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/ISP_mapping.db;MAKE_COPY_RULE_ONLY
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mt6895/ISP_info.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ISP_info.db;MAKE_COPY_RULE_ONLY
 
 # Charger firmware
 odm/firmware/fastchg/21861/charging_hyper_mode_config.txt
