@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus Nord 10R 5G (CPH2423_14.0.0.640(EX01)).
+## are from OnePlus Nord 10R 5G (CPH2423_14.0.0.650(EX01)).
 
 apusys.img;AB
 audio_dsp.img;AB
