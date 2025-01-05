@@ -17,4 +17,8 @@
     <!-- Microns/ums (1000 um = 1mm) per pixel for the given device. If unspecified, UI that
         relies on this value will not be sized correctly. -->
     <item name="pixel_pitch" format="float" type="dimen">64.47</item>
+
+    <!-- Determines whether the shell features all run on another thread. -->
+    <bool name="config_enableShellMainThread">true</bool>
+
 </resources>
